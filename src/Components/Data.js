@@ -8,7 +8,7 @@ const beard = [
             text: "Самый успешный исполнитель в истории поп-музыки, известен как «Король поп-музыки», обладатель 15 премий «Грэмми» и сотен других премий. Количество проданных в мире записей Джексона (альбомов, синглов, сборников и т. д.) составляет 1 миллиард копий. Майкл Джексон внёс значительный вклад в развитие популярной музыки, видеоклипов, танца и моды."
         },
         {
-            nameRu: "Э́двард Ширан",
+            nameRu: "Эдвард Ширан",
             nameEn: "Ed Sheeran",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/2.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/1-EdShiran.mp3?raw=true",
@@ -22,7 +22,7 @@ const beard = [
             text: "По состоянию на октябрь 2011 года, альбомы Леди Гаги были проданы в количестве 23 миллионов копий, а синглы — 64 миллиона экземпляров во всём мире. Певица имеет множество наград, среди которых шесть премий «Грэмми», 13 MTV Video Music Awards и 8 MTV Europe Music Awards, а также занимает четвёртое место в списке 100 величайших женщин в музыке по версии VH1. Time назвал исполнительницу одной из самых влиятельных личностей в мире. "
         },
         {
-            nameRu: "Би́лли А́йлиш",
+            nameRu: "Билли Айлиш",
             nameEn: "Billie Eilish",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/4.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/1-BillieEilish.mp3?raw=true",
@@ -45,7 +45,7 @@ const beard = [
     ],
     [
         {
-            nameRu: "Система",
+            nameRu: "System of a Down",
             nameEn: "System of a Down",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/7.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/2-System.mp3?raw=true",
@@ -59,7 +59,7 @@ const beard = [
             text: "Коллектив продал свыше 200 миллионов экземпляров альбомов по всему миру, включая 72 миллиона в США. Самый успешный альбом, Back in Black, был продан в количестве более 22 миллионов в США и более 42 миллионов за их пределами. В целом AC/DC является самой успешной и известной рок-группой из Австралии и одной из популярнейших в мире."
         },
         {
-            nameRu: "Лорди",
+            nameRu: "Lordi",
             nameEn: "Lordi",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/9.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/2-Lordi.mp3?raw=true",
@@ -80,7 +80,7 @@ const beard = [
             text: "«Кино́» — одна из самых популярных советских рок-групп 1980-х годов. Лидером и автором почти всех текстов и музыки неизменно оставался Виктор Цой, после смерти которого коллектив, выпустивший, в общей сложности, за девять лет на студийных альбомах более ста песен, несколько сборников и концертных записей, а также большое количество неофициальных бутлегов, прекратил существование."
         },
         {
-            nameRu: "Нирвана",
+            nameRu: "Nirvana",
             nameEn: "Nirvana",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/12.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/2-nirvana.mp3?raw=true",
@@ -110,21 +110,21 @@ const beard = [
             text: "немецкая рок-группа, образованная в 1989 году в Вольфсбурге, ФРГ. Изначально коллектив исполнял музыку в стиле EBM, однако, начиная со второго студийного альбома Sperm становится первопроходцем и законодателем Neue Deutsche Härte — ответвления индастриал-метала."
         },
         {
-            nameRu: "Рамштайн",
+            nameRu: "Rammstein",
             nameEn: "Rammstein",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/16.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/3-Rammstein.mp3?raw=true",
             text: "Немецкая метал-группа. Основные черты творчества группы: специфический ритм, в котором выдержана большая часть композиций, и эпатирующие тексты песен[⇨]. Особую известность группе принесли сценические выступления, часто сопровождаемые использованием пиротехники, получившие признание в музыкальной среде. Состав группы ни разу не менялся."
         },
         {
-            nameRu: "Корн",
+            nameRu: "Korn",
             nameEn: "Korn",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/17.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/3-Korn.mp3?raw=true",
             text: "В книге Джоела Макивера группа описана как пионер ню-метала. Korn заложили основы музыки, которая сочетает в себе гранж, хардкор-панк и грув-метал, к которым зачастую добавляются фанк и хип-хоп. После того, как по всему миру было продано более 3 миллионов копий их дебютного одноимённого альбома, изданного в 1994 году, Korn стали одной из самых продаваемых тяжёлых групп за последнее десятилетие, на 2013 продано свыше 10 миллионов копий их дебютного альбома во всём мире по данным Nielsen SoundScan. "
         },
         {
-            nameRu: "Лимп Бизкит",
+            nameRu: "Limp Bizkit",
             nameEn: "Limp Bizkit",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/18.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/3-Limp.mp3?raw=true",
@@ -133,21 +133,21 @@ const beard = [
     ],
     [
         {
-            nameRu: "Пятьдесят центов",
+            nameRu: "50 Cent",
             nameEn: "50 Cent",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/19.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/4-50-cent.mp3?raw=true",
             text: "Рождённый в бедном негритянском районе Саут-Джамейка, Кёртис Джексон в возрасте 12 лет начал торговать кокаином. После того как он бросает торговлю кокаином, чтобы посвятить себя музыкальной карьере, в него стреляют 9 раз в 2000 году. После выхода сборника Guess Who’s Back?, 50 Cent’а замечает Эминем и подписывает с ним контракт в Interscope Records. С помощью Эминема и Dr. Dre, которые продюсировали его, к нему приходит первый главный коммерческий успех: он становится одним из самых продаваемых исполнителей во всём мире."
         },
         {
-            nameRu: "Эминем",
+            nameRu: "Eminem",
             nameEn: "Eminem",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/20.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/4-Eminem.mp3?raw=true",
             text: "В 2010 году состоялся релиз седьмого студийного альбома Recovery, который отметился всемирным успехом и был назван самым продаваемым альбомом года, как и The Eminem Show в 2002 году. Эминем получил Грэмми за обе пластинки — Relapse и Recovery. 5 ноября 2013 года Эминем выпустил свой восьмой студийный альбом The Marshall Mathers LP 2, также отмеченный премией Грэмми, что, в общем счёте, составило 15 наград за всю карьеру. 24 ноября 2014 года вышла ShadyXV — вторая компиляция американского лейбла Shady Records, вышедшая на Shady и Interscope."
         },
         {
-            nameRu: "Снуп Догг",
+            nameRu: "Snoop Dogg",
             nameEn: "Snoop Dogg",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/21.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/4-Snoop.mp3?raw=true",
@@ -161,7 +161,7 @@ const beard = [
             text: "18 мая 2010 года участники группы Хамиль и Змей выпустили альбом «ХЗ».По итогам голосования InDaAwards 2010 группа «Каста» стала лучшей рэп-группой года.В феврале 2012 года, спустя почти 10 лет после выхода дебютного сольного альбома, вышла вторая работа Влади под названием «Ясно!».2 июня 2012 года, в рамках выступления на премии МузТВ, «Каста» совместно с группой «Звери» исполнила хит «Вокруг Шум»."
         },
         {
-            nameRu: "Оксимирон",
+            nameRu: "Oxxxymiron",
             nameEn: "Oxxxymiron ",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/23.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/4-Oxxxymiron.mp3?raw=true",
@@ -177,42 +177,42 @@ const beard = [
     ],
     [
         {
-            nameRu: "Дедмаус",
+            nameRu: "Deadmau5",
             nameEn: "Deadmau5",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/25.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-deadmau5.mp3?raw=true",
             text: "Канадский диджей и музыкальный продюсер. В 2018 году занял 59 место в списке лучших диджеев мира по версии журнала DJ Magazine."
         },
         {
-            nameRu: "электростанция",
+            nameRu: "Kraftwerk",
             nameEn: "Kraftwerk",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/26.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-Kraftwerk.mp3?raw=true",
             text: "Немецкий музыкальный коллектив из Дюссельдорфа, внёсший заметный вклад в развитие электронной музыки. Группа была образована в 1968 году Флорианом Шнайдером и Ральфом Хюттером, но широкую известность приобрела, став квартетом."
         },
         {
-            nameRu: "Ке́львин Ха́ррис",
+            nameRu: "Кельвин Харрис",
             nameEn: "Calvin Harris",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/27.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-Calvin.mp3?raw=true",
             text: "Шотландский автор-исполнитель, музыкальный продюсер и диджей. Его дебютный студийный альбом I Created Disco стал золотым, а синглы «Acceptable in the 80s» и «The Girls» вошли в топ-10 британского чарта. "
         },
         {
-            nameRu: "Про́диджи",
+            nameRu: "The Prodigy",
             nameEn: "The Prodigy",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/28.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-Prodigy.mp3?raw=true",
             text: "Группа появилась на андеграудной рейв-сцене в начале 1990-х годов и с тех пор имеет большую популярность и известность во всём мире. Всего в мире продано более 25 миллионов экземпляров альбомов коллектива."
         },
         {
-            nameRu: "Скриллекс",
+            nameRu: "Skrillex",
             nameEn: "Skrillex",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/29.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-Skrillex.mp3?raw=true",
             text: "Skrillex был номинирован на пять премий «Грэмми» в 2011 году, в том числе в категории «Лучший новый исполнитель»[6]. На 54-й церемонии «Грэмми» он был награждён в трёх номинациях."
         },
         {
-            nameRu: "Дэви́д Ге́тта́",
+            nameRu: "Дэвид Гетта",
             nameEn: "David Guetta",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/30.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-David.mp3?raw=true",
@@ -221,42 +221,42 @@ const beard = [
     ],
     [
         {
-            nameRu: "Анто́нио Лучо Вива́льди",
+            nameRu: "Антонио Лучо Вивальди",
             nameEn: "Antonio Lucio Vivaldi",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/31.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/6-vivaldi.mp3?raw=true",
             text: "Вивальди считается одним из крупнейших представителей итальянского скрипичного искусства XVIII века[8], при жизни получил широкое признание во всей Европе. Мастер ансамблево-оркестрового концерта — кончерто гроссо, автор около 40 опер. "
         },
         {
-            nameRu: "Фридери́к Шопе́н",
+            nameRu: "Фридерик Шопен",
             nameEn: "Fryderyk Chopin",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/32.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/6-shopen.mp3?raw=true",
             text: "Один из ведущих представителей западноевропейского музыкального романтизма, основоположник польской национальной композиторской школы. Оказал значительное влияние на мировую музыку."
         },
         {
-            nameRu: "Пётр Ильи́ч Чайко́вский",
+            nameRu: "Пётр Ильич Чайковский",
             nameEn: "Pyotr Ilyich Tchaikovsky",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/33.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/6-chaykovskiy.mp3?raw=true",
             text: "Как композитор-профессионал Чайковский сформировался в 1860—1870 годы: многогранным развитием русской музыки, литературы и живописи, расцветом отечественного естествознания, ярких завоеваний в области философии и эстетики."
         },
         {
-            nameRu: "Иога́нн Себастья́н Бах",
+            nameRu: "Иоганн Себастьян Бах",
             nameEn: "Johann Sebastian Bach",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/34.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/6-bah.mp3?raw=true",
             text: "Бах — автор более 1000 музыкальных произведений во всех значимых жанрах своего времени (кроме оперы). Творческое наследие Баха интерпретируется как обобщение музыкального искусства барокко. "
         },
         {
-            nameRu: "Лю́двиг ван Бетхо́вен",
+            nameRu: "Людвиг ван Бетховен",
             nameEn: "Ludwig van Beethoven",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/35.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/6-bethoven.mp3?raw=true",
             text: "Бетховен — ключевая фигура классической музыки в период между классицизмом и романтизмом, один из наиболее исполняемых композиторов в мире. Он писал во всех существовавших в его время жанрах, включая оперу, музыку к драматическим спектаклям, хоровые сочинения. "
         },
         {
-            nameRu: "Альгис Жюра́йтис",
+            nameRu: "Альгис Жюрайтис",
             nameEn: "Algis Zhuraitis",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/36.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/6-alg.mp3?raw=true",

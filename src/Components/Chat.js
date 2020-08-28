@@ -8,7 +8,7 @@ class Chat extends Component {
   constructor() {
     super()
     this.state = {
-      selectCategory: 5,
+      selectCategory: 0,
       score: 0,
       endGame: false,
     };
@@ -38,14 +38,27 @@ class Chat extends Component {
   }
   render() {
     if (this.state.endGame) {
-      if (this.state.score < 30) {
+      if (this.state.score === 30) {
         return (
           <div className="all-container">
             <Header category={0} score={this.state.score} />
             <div className="game-over">
               <h1 className="endGame-h1">Поздравляем!</h1>
-              <h1 className="endGame-h1">Ты сумел достичь хоть что-то!</h1>
+              <h1 className="endGame-h1">Ты сумел достичь хоть чего-то!</h1>
               {/* <p className="endGame-p">Вы прошли викторину и набрали {this.state.score} из 30 возможных баллов</p> */}
+            </div>
+          </div>
+        );
+      }
+      else if (this.state.score <= 10) {
+        return (
+          <div className="all-container">
+            <Header category={0} score={this.state.score} />
+            <div className="game-over">
+              <h1 className="endGame-h1">Упс!</h1>
+              <p className="endGame-p">Вы прошли викторину и набрали {this.state.score} из 30 возможных баллов <br></br> Стоит чаще слушать музыку.</p>
+              <hr className="my-4"></hr>
+              <button className="btn-game-over" onClick={event => this.refreshGame()}>Попробовать еще раз!</button>
             </div>
           </div>
         );
