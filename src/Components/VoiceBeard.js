@@ -8,6 +8,7 @@ class VoiceBeard extends Component {
     super(props)
     this.state = {
       nextCategory:this.props.category,
+      volume:0.5,
     };
   }
   static getDerivedStateFromProps(props, state) {
@@ -23,6 +24,11 @@ class VoiceBeard extends Component {
       };
     }
   }
+  value(event){
+    this.setState({
+      volume:event.target.volume,
+    })
+  }
 
   render() {
     console.log(this.props.beard)
@@ -35,7 +41,7 @@ class VoiceBeard extends Component {
             <div className="voice-name-and-sound">
               <div className="voice-name"><p>{beard[this.props.category][this.props.beard].nameRu}</p></div>
               <AudioPlayer 
-                src={beard[this.props.category][this.props.beard].sound} customAdditionalControls={[]} showJumpControls={false} autoPlayAfterSrcChange={this.state.autoPlay} key={this.state.autoPlay}
+                src={beard[this.props.category][this.props.beard].sound} customAdditionalControls={[]} showJumpControls={false} volume={this.state.volume} onVolumeChange={event => this.value(event)} autoPlayAfterSrcChange={this.state.autoPlay} key={this.state.autoPlay}
               />
             </div>
           </div>
@@ -50,7 +56,7 @@ class VoiceBeard extends Component {
             <div className="voice-name-and-sound">
               <div className="voice-name"><p>***</p></div>
               <AudioPlayer 
-                src={beard[this.props.category][this.props.beard].sound} customAdditionalControls={[]} showJumpControls={false} autoPlayAfterSrcChange={false}
+                src={beard[this.props.category][this.props.beard].sound} customAdditionalControls={[]} showJumpControls={false} autoPlayAfterSrcChange={false} volume={this.state.volume} onVolumeChange={event => this.value(event)}
               />
             </div>
           </div>

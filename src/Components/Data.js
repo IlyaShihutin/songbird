@@ -191,7 +191,7 @@ const beard = [
             text: "Немецкий музыкальный коллектив из Дюссельдорфа, внёсший заметный вклад в развитие электронной музыки. Группа была образована в 1968 году Флорианом Шнайдером и Ральфом Хюттером, но широкую известность приобрела, став квартетом."
         },
         {
-            nameRu: "Кельвин Харрис",
+            nameRu: "Calvin Harris",
             nameEn: "Calvin Harris",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/27.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-Calvin.mp3?raw=true",
@@ -212,7 +212,7 @@ const beard = [
             text: "Skrillex был номинирован на пять премий «Грэмми» в 2011 году, в том числе в категории «Лучший новый исполнитель»[6]. На 54-й церемонии «Грэмми» он был награждён в трёх номинациях."
         },
         {
-            nameRu: "Дэвид Гетта",
+            nameRu: "David Guetta",
             nameEn: "David Guetta",
             img: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/img/30.jpg?raw=true",
             sound: "https://github.com/IlyaShihutin/songbird/blob/songbird/src/Components/source/sound/5-David.mp3?raw=true",

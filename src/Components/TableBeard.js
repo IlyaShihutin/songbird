@@ -15,6 +15,7 @@ class TableBeard extends Component {
   }
   sound(flag){
     const sound = new Audio(flag ? soundTrue : soundFalse);
+    sound.volume = 0.7;
     sound.play();
 }
   selectBeard(number, category) {
