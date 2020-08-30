@@ -29,7 +29,7 @@ class InfoBeard extends Component {
                             <div className="info-lastName">{beard[this.props.category][this.props.beard].nameEn}</div>
                             <div className="info-sound">
                                 <AudioPlayer
-                                    src={beard[this.props.category][this.props.beard].sound} customAdditionalControls={[]} volume="0.5" showJumpControls={false} customVolumeControls={[]} autoPlayAfterSrcChange={false}
+                                    src={beard[this.props.category][this.props.beard].sound} customAdditionalControls={[]} volume="0.5" showJumpControls={false}  autoPlayAfterSrcChange={false}
                                 />
                             </div>
                         </div>
