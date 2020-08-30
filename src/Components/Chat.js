@@ -4,7 +4,7 @@ import Content from "./Content";
 import './chat.css';
 import './media.css';
 
-import rightVersion from '../Components/source/sound/RIGHT_VERSION.mp3'
+import queen from '../Components/source/sound/queen.mp3'
 class Chat extends Component {
   constructor() {
     super()
@@ -45,10 +45,8 @@ class Chat extends Component {
             <Header category={0} score={this.state.score} />
             <div className="game-over">
               <h1 className="endGame-h1">Поздравляем!</h1>
-              <h1 className="endGame-h1">Ты настоящий Dungeon Master!</h1>
-              <audio src={rightVersion} hidden autoplay="autoplay"></audio>
-              {/* <h1 className="endGame-h1">Ты сумел достичь хоть чего-то!</h1> */}
-              {/* <p className="endGame-p">Вы прошли викторину и набрали {this.state.score} из 30 возможных баллов</p> */}
+              <p className="endGame-p">ВЫ прошли все без ошибок!</p>
+              <audio src={queen} hidden autoplay="autoplay"></audio>
             </div>
           </div>
         );

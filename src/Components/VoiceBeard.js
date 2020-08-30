@@ -31,7 +31,6 @@ class VoiceBeard extends Component {
   }
 
   render() {
-    console.log(this.props.beard)
       if (this.props.answer) {
         return (
           <div className="voice-container">
